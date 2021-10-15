@@ -1,0 +1,12 @@
+C:\SeguimientoAcademicoVirtual\SeguimientoVirtual.App\SeguimientoVirtual.App.Persistencia\obj\Debug\netstandard2.1\SeguimientoVirtual.App.Persistencia.csprojAssemblyReference.cache
+C:\SeguimientoAcademicoVirtual\SeguimientoVirtual.App\SeguimientoVirtual.App.Persistencia\obj\Debug\netstandard2.1\SeguimientoVirtual.App.Persistencia.AssemblyInfoInputs.cache
+C:\SeguimientoAcademicoVirtual\SeguimientoVirtual.App\SeguimientoVirtual.App.Persistencia\obj\Debug\netstandard2.1\SeguimientoVirtual.App.Persistencia.AssemblyInfo.cs
+C:\SeguimientoAcademicoVirtual\SeguimientoVirtual.App\SeguimientoVirtual.App.Persistencia\obj\Debug\netstandard2.1\SeguimientoVirtual.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\SeguimientoAcademicoVirtual\SeguimientoVirtual.App\SeguimientoVirtual.App.Persistencia\bin\Debug\netstandard2.1\SeguimientoVirtual.App.Persistencia.deps.json
+C:\SeguimientoAcademicoVirtual\SeguimientoVirtual.App\SeguimientoVirtual.App.Persistencia\bin\Debug\netstandard2.1\SeguimientoVirtual.App.Persistencia.dll
+C:\SeguimientoAcademicoVirtual\SeguimientoVirtual.App\SeguimientoVirtual.App.Persistencia\bin\Debug\netstandard2.1\SeguimientoVirtual.App.Persistencia.pdb
+C:\SeguimientoAcademicoVirtual\SeguimientoVirtual.App\SeguimientoVirtual.App.Persistencia\bin\Debug\netstandard2.1\SeguimientoVirtual.App.Dominio.dll
+C:\SeguimientoAcademicoVirtual\SeguimientoVirtual.App\SeguimientoVirtual.App.Persistencia\bin\Debug\netstandard2.1\SeguimientoVirtual.App.Dominio.pdb
+C:\SeguimientoAcademicoVirtual\SeguimientoVirtual.App\SeguimientoVirtual.App.Persistencia\obj\Debug\netstandard2.1\SeguimientoVirtual.App.Persistencia.csproj.CopyComplete
+C:\SeguimientoAcademicoVirtual\SeguimientoVirtual.App\SeguimientoVirtual.App.Persistencia\obj\Debug\netstandard2.1\SeguimientoVirtual.App.Persistencia.dll
+C:\SeguimientoAcademicoVirtual\SeguimientoVirtual.App\SeguimientoVirtual.App.Persistencia\obj\Debug\netstandard2.1\SeguimientoVirtual.App.Persistencia.pdb

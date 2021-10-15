@@ -1,0 +1,32 @@
+﻿@page
+@model SeguimientoVirtual.App.Presentacion.Pages.Estudiantes.ActividadModel
+@{
+}
+
+<h1>Registro Actividad</h1>
+
+<form method="post">
+
+    
+    <div class="form-group">
+        <label asp-for="estudiante.Id"></label>
+        <input asp-for="estudiante.Id" class="form-control" readonly>
+    </div>
+    <div class="form-group">
+        <label asp-for="estudiante.Nombre"></label>
+        <input asp-for="estudiante.Nombre" class="form-control" readonly>
+    </div>
+    <div class="form-group">
+        <label asp-for="estudiante.Apellidos"></label>
+        <input asp-for="estudiante.Apellidos" class="form-control" readonly>
+    </div>
+    <div class="form-group">
+        <label asp-for="actividad.Nombre"></label>
+        <input asp-for="actividad.Nombre" class="form-control" required="required">
+    </div>
+    <div class="form-group">
+        <label asp-for="actividad.Descripcion"></label>
+        <input asp-for="actividad.Descripcion" class="form-control" required="required">
+    </div>
+    <button type="submit" class="btn btn-primary">Registrar</button>
+</form> 

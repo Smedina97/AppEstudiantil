@@ -1,0 +1,34 @@
+﻿@page
+@model SeguimientoVirtual.App.Presentacion.Pages.Estudiantes.ConsultarEstudiantesModel
+@{
+}
+<h1>Listado de estudiantes</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellidos</th>
+            <th scope="col">Numero de telefono</th>
+            <th scope="col">Ciudad</th>
+            <th scope="col">Fecha de nacimiento</th>
+            <th scope="col">Actividades</th>
+            <th scope="col">Consultas </th>
+
+        </tr>
+    </thead>
+
+    @foreach (var x in Model.estudiantes)
+    {
+        <tr>
+            <td>@x.Nombre</td>
+            <td>@x.Apellidos</td>
+            <td>@x.NumeroTelefono</td>
+            <td>@x.Ciudad</td>
+            <td>@x.FechaNacimiento</td>
+            <td><a class="btn btn-secondary" asp-page="./Actividad" asp-route-id="@x.Id">Registre Actividad</a></td>
+            <td><a class="btn btn-secondary" asp-page="./Consultas" >Consulte</a></td>
+        </tr>
+    }
+
+</table>

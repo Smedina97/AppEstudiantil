@@ -1,0 +1,30 @@
+﻿@page
+@model SeguimientoVirtual.App.Presentacion.Pages.Estudiantes.ConsultasGModel
+@{
+}
+<h1>Listado de estudiantes</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellidos</th>
+            <th scope="col">Numero de telefono</th>
+            <th scope="col">Ciudad</th>
+            <th scope="col">Fecha de nacimiento</th>
+            
+        </tr>
+    </thead>
+
+    @foreach (var x in Model.estudiante)
+    {
+        <tr>
+            <td>@x.Nombre</td>
+            <td>@x.Apellidos</td>
+            <td>@x.NumeroTelefono</td>
+            <td>@x.Ciudad</td>
+            <td>@x.FechaNacimiento</td>
+        </tr>
+    }
+
+</table>

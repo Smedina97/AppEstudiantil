@@ -1,0 +1,9 @@
+C:\SeguimientoAcademicoVirtual\SeguimientoVirtual.App\SeguimientoVirtual.App.Dominio\bin\Debug\netstandard2.0\SeguimientoVirtual.App.Dominio.deps.json
+C:\SeguimientoAcademicoVirtual\SeguimientoVirtual.App\SeguimientoVirtual.App.Dominio\bin\Debug\netstandard2.0\SeguimientoVirtual.App.Dominio.dll
+C:\SeguimientoAcademicoVirtual\SeguimientoVirtual.App\SeguimientoVirtual.App.Dominio\bin\Debug\netstandard2.0\SeguimientoVirtual.App.Dominio.pdb
+C:\SeguimientoAcademicoVirtual\SeguimientoVirtual.App\SeguimientoVirtual.App.Dominio\obj\Debug\netstandard2.0\SeguimientoVirtual.App.Dominio.csprojAssemblyReference.cache
+C:\SeguimientoAcademicoVirtual\SeguimientoVirtual.App\SeguimientoVirtual.App.Dominio\obj\Debug\netstandard2.0\SeguimientoVirtual.App.Dominio.AssemblyInfoInputs.cache
+C:\SeguimientoAcademicoVirtual\SeguimientoVirtual.App\SeguimientoVirtual.App.Dominio\obj\Debug\netstandard2.0\SeguimientoVirtual.App.Dominio.AssemblyInfo.cs
+C:\SeguimientoAcademicoVirtual\SeguimientoVirtual.App\SeguimientoVirtual.App.Dominio\obj\Debug\netstandard2.0\SeguimientoVirtual.App.Dominio.csproj.CoreCompileInputs.cache
+C:\SeguimientoAcademicoVirtual\SeguimientoVirtual.App\SeguimientoVirtual.App.Dominio\obj\Debug\netstandard2.0\SeguimientoVirtual.App.Dominio.dll
+C:\SeguimientoAcademicoVirtual\SeguimientoVirtual.App\SeguimientoVirtual.App.Dominio\obj\Debug\netstandard2.0\SeguimientoVirtual.App.Dominio.pdb
