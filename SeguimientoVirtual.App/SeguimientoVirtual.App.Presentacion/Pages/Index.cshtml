@@ -9,7 +9,7 @@
     
 </div>
 @if(User.Identity.IsAuthenticated){
-    <table>
+    <table class="table table-sm">
         @foreach (var claim in User.Claims)
         {
             <tr>
