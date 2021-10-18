@@ -12,13 +12,13 @@ namespace SeguimientoVirtual.App.Presentacion.Pages.Estudiantes
     public class ConsultasGModel : PageModel
     {
         private readonly IRepositorioEstudiante _repoEstudiante;
-        public IEnumerable<Estudiante> estudiante{get; set;}
+        public IEnumerable<Estudiante> estudiante{get; set;}        
         public ConsultasGModel (IRepositorioEstudiante _repoEstudiante){
             this._repoEstudiante=_repoEstudiante;
         }
         public void OnGet()
         {
-            //estudiante= _repoEstudiante.GetEstudiantesTaller();
+            estudiante= _repoEstudiante.GetEstudiantesTaller();
         }
     }
 }

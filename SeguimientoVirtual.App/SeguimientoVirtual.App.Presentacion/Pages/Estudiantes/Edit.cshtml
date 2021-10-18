@@ -1,0 +1,53 @@
+﻿@page
+@model SeguimientoVirtual.App.Presentacion.Pages.Estudiantes.EditModel
+@{
+}
+
+
+
+<h1>Edicion de estudiante </h1>
+<form class="row" method="post">    
+    <div class="col-sm-12 col-md-6 col-lg-4">
+        <label class="col-sm 10 col-md-4 col-lg-5" asp-for="estudiante.Nombre"></label>
+        <input asp-for="estudiante.Nombre" class="for-control">
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-4">
+        <label class="col-sm 10 col-md-4 col-lg-5" asp-for="estudiante.Apellidos"></label>
+        <input asp-for="estudiante.Apellidos" class="for-control">
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-4">
+        <label class="col-sm 10 col-md-4 col-lg-5" asp-for="estudiante.NumeroTelefono"></label>
+        <input asp-for="estudiante.NumeroTelefono" class="for-control">
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-4">
+        <label class="col-sm 10 col-md-4 col-lg-5" asp-for="estudiante.Ciudad"></label>
+        <input asp-for="estudiante.Ciudad" class="for-control">
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-4">
+        <label class="col-sm 10 col-md-4 col-lg-5" asp-for="estudiante.Genero"></label>
+        <input asp-for="estudiante.Genero" class="for-control">
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-4">
+        <label class="col-sm 10 col-md-4 col-lg-5" asp-for="estudiante.Direccion"></label>
+        <input asp-for="estudiante.Direccion" class="for-control">
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-4">
+        <label class="col-sm 10 col-md-4 col-lg-5" asp-for="estudiante.Latitud"></label>
+        <input asp-for="estudiante.Latitud" class="for-control">
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-4">
+        <label class="col-sm 10 col-md-4 col-lg-5" asp-for="estudiante.Longitud"></label>
+        <input asp-for="estudiante.Longitud" class="for-control">
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-4">
+        <label class="col-sm 10 col-md-4 col-lg-5" asp-for="estudiante.Grado"></label>
+        <input asp-for="estudiante.Grado" class="for-control">
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-4">
+        <label class="col-sm 10 col-md-4 col-lg-5" asp-for="estudiante.FechaNacimiento"></label>
+        <input asp-for="estudiante.FechaNacimiento" class="for-control">
+    </div>
+    
+</form>
+<button type="submit" class="btn btn-primary">Grabar</button> 
+<a asp-page="./ConsultarEstudiantes" class="btn btn-primary">Lista estudiantes</a>

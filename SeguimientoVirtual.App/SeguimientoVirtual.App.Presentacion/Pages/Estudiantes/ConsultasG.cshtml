@@ -12,6 +12,10 @@
             <th scope="col">Numero de telefono</th>
             <th scope="col">Ciudad</th>
             <th scope="col">Fecha de nacimiento</th>
+            <th scope="col">Actividad</th>
+            <th scope="col">Descripcion</th>
+            
+            
             
         </tr>
     </thead>
@@ -23,8 +27,12 @@
             <td>@x.Apellidos</td>
             <td>@x.NumeroTelefono</td>
             <td>@x.Ciudad</td>
-            <td>@x.FechaNacimiento</td>
-        </tr>
+            <td>@x.FechaNacimiento</td>                                    
+        </tr>        
     }
+    
+    <a asp-page="./ConsultarEstudiantes" class="btn btn-secondary">Lista estudiantes</a>
+
+    
 
 </table>

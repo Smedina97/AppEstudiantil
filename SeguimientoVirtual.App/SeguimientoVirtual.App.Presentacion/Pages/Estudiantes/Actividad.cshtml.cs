@@ -12,6 +12,7 @@ namespace SeguimientoVirtual.App.Presentacion.Pages.Estudiantes
     public class ActividadModel : PageModel
     {
         private readonly IRepositorioEstudiante _repoEstudiante;
+        [BindProperty]
         public Estudiante estudiante{get; set;}
         public Actividad actividad{get; set;}
         public ActividadModel(IRepositorioEstudiante _repoEstudiante){

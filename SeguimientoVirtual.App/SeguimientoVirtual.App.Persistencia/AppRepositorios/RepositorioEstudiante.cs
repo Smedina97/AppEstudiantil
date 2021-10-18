@@ -88,9 +88,11 @@ namespace SeguimientoVirtual.App.Persistencia
                     _appContext.SaveChanges();
                 }
             }
+        }        
+        IEnumerable<Estudiante> IRepositorioEstudiante.GetEstudiantesTaller(){
+            // return _appContext.Estudiantes.Where(e => e.Actividades.Any(a => a.Nombre=="Taller")).ToList();
+            return _appContext.Estudiantes;
         }
-        //IEnumerable<Estudiante> IRepositorioEstudiante.GetEstudiantesTaller(){
-            //return _appContext.Estudiantes.Where(e => e.Actividad.Any(a =>Actividad.Nombre=="Taller")).ToList();
-        //}
+        
     }   
 }

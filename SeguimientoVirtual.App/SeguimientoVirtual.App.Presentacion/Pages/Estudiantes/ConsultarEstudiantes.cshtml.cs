@@ -20,5 +20,6 @@ namespace SeguimientoVirtual.App.Presentacion.Pages.Estudiantes
         {
             estudiantes=_repoEstudiante.GetAllEstudiantes();
         }
+        
     }
 }

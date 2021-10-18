@@ -26,6 +26,7 @@ namespace SeguimientoVirtual.App.Presentacion
         {
             services.AddRazorPages();
             services.AddSingleton<IRepositorioEstudiante , RepositorioEstudiante>();
+            services.AddControllersWithViews();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -46,6 +47,8 @@ namespace SeguimientoVirtual.App.Presentacion
             app.UseStaticFiles();
 
             app.UseRouting();
+
+            app.UseAuthentication();
 
             app.UseAuthorization();
 

@@ -8,7 +8,7 @@ namespace SeguimientoVirtual.App.Persistencia {
         Estudiante UpdateEstudiante (Estudiante estudiante);
         void DeleteEstudiante (int IdEstudiante);
         Estudiante GetEstudiante (int IdEstudiante);
-        void AdicionarActividad(int IdEstudiante, Actividad actividad);
-        //IEnumerable<Estudiante> GetEstudiantesTaller();
+        void AdicionarActividad(int IdEstudiante, Actividad actividad);        
+        IEnumerable<Estudiante> GetEstudiantesTaller();
     }
 }

@@ -8,7 +8,7 @@ namespace SeguimientoVirtual.App.Dominio
         public double Latitud {get; set;}
         public double Longitud {get; set;}
         public string Ciudad {get; set;}
-        public string FechaNacimiento {get; set;}
+        public DateTime FechaNacimiento {get; set;}
         public string Grado {get; set;}        
         public List<Materia> Materias{get;set;}
         public Acudiente Acudiente{get; set;}

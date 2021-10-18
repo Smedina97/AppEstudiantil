@@ -11,9 +11,15 @@
             <th scope="col">Apellidos</th>
             <th scope="col">Numero de telefono</th>
             <th scope="col">Ciudad</th>
+            <th scope="col">Genero</th>
+            <th scope="col">Dirección</th>
+            <th scope="col">Latitud</th>
+            <th scope="col">Longitud</th>
+            <th scope="col">Grado</th>
             <th scope="col">Fecha de nacimiento</th>
             <th scope="col">Actividades</th>
-            <th scope="col">Consultas </th>
+            <th scope="col">Consultas</th>
+            <th scope="col">Editar</th>
 
         </tr>
     </thead>
@@ -25,9 +31,16 @@
             <td>@x.Apellidos</td>
             <td>@x.NumeroTelefono</td>
             <td>@x.Ciudad</td>
+            <td>@x.Genero</td>
+            <td>@x.Direccion</td>
+            <td>@x.Latitud</td>
+            <td>@x.Longitud</td>
+            <td>@x.Grado</td>
             <td>@x.FechaNacimiento</td>
             <td><a class="btn btn-secondary" asp-page="./Actividad" asp-route-id="@x.Id">Registre Actividad</a></td>
-            <td><a class="btn btn-secondary" asp-page="./Consultas" >Consulte</a></td>
+            <td><a class="btn btn-secondary" asp-page="./ConsultasG" ><i class="fas fa-info-circle fa-lg"></i></a></td>
+            <td><a class="btn btn-secondary" asp-page="./Edit" asp-route-id="@x.Id"><i class="fas fa-address-book fa-lg" aria-hidden="true"></i></a></td>
+
         </tr>
     }
 
