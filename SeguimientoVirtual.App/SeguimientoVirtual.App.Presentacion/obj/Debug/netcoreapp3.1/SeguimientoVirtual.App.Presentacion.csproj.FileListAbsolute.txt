@@ -179,3 +179,8 @@ C:\SeguimientoAcademicoVirtual\SeguimientoVirtual.App\SeguimientoVirtual.App.Pre
 C:\SeguimientoAcademicoVirtual\SeguimientoVirtual.App\SeguimientoVirtual.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
 C:\SeguimientoAcademicoVirtual\SeguimientoVirtual.App\SeguimientoVirtual.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\SeguimientoAcademicoVirtual\SeguimientoVirtual.App\SeguimientoVirtual.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Estudiantes\Edit.cshtml.g.cs
+C:\SeguimientoAcademicoVirtual\SeguimientoVirtual.App\SeguimientoVirtual.App.Presentacion\bin\Debug\netcoreapp3.1\publish\web.config
+C:\SeguimientoAcademicoVirtual\SeguimientoVirtual.App\SeguimientoVirtual.App.Presentacion\bin\Debug\netcoreapp3.1\publish\appsettings.Development.json
+C:\SeguimientoAcademicoVirtual\SeguimientoVirtual.App\SeguimientoVirtual.App.Presentacion\bin\Debug\netcoreapp3.1\publish\appsettings.json
+C:\SeguimientoAcademicoVirtual\SeguimientoVirtual.App\SeguimientoVirtual.App.Presentacion\bin\Debug\netcoreapp3.1\publish\SeguimientoVirtual.App.Presentacion.deps.json
+C:\SeguimientoAcademicoVirtual\SeguimientoVirtual.App\SeguimientoVirtual.App.Presentacion\bin\Debug\netcoreapp3.1\publish\SeguimientoVirtual.App.Presentacion.runtimeconfig.json
